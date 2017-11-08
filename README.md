@@ -22,5 +22,23 @@ MyTest.test3  100000  1000  avgt   20  33.137 ±  9.326  ms/op
 MyTest.test4  100000     1  avgt   20  39.412 ± 10.397  ms/op
 MyTest.test4  100000   100  avgt   20  37.823 ± 12.362  ms/op
 MyTest.test4  100000  1000  avgt   20  32.411 ±  5.971  ms/op
-
 ```
+
+Throughput
+```
+Benchmark      (max)   (p)   Mode  Cnt  Score   Error   Units
+MyTest.test1  100000     1  thrpt   20  0.032 ± 0.009  ops/ms
+MyTest.test1  100000   100  thrpt   20  0.040 ± 0.010  ops/ms
+MyTest.test1  100000  1000  thrpt   20  0.038 ± 0.010  ops/ms
+MyTest.test2  100000     1  thrpt   20  0.113 ± 0.005  ops/ms
+MyTest.test2  100000   100  thrpt   20  0.105 ± 0.014  ops/ms
+MyTest.test2  100000  1000  thrpt   20  0.111 ± 0.006  ops/ms
+MyTest.test3  100000     1  thrpt   20  0.030 ± 0.008  ops/ms
+MyTest.test3  100000   100  thrpt   20  0.026 ± 0.007  ops/ms
+MyTest.test3  100000  1000  thrpt   20  0.033 ± 0.008  ops/ms
+MyTest.test4  100000     1  thrpt   20  0.032 ± 0.005  ops/ms
+MyTest.test4  100000   100  thrpt   20  0.030 ± 0.006  ops/ms
+MyTest.test4  100000  1000  thrpt   20  0.029 ± 0.006  ops/ms
+```
+
+and the winner is test 2!
